@@ -1,4 +1,4 @@
-FFMPEG=/usr/local/ffmpeg
+FFMPEG=./ffmpeg
 CC=g++
 CFLAGS=-g -I$(FFMPEG)/include
 LDFLAGS = -L$(FFMPEG)/lib/ -lswscale -lswresample -lavformat -lavdevice -lavcodec -lavutil -lavfilter -lm
